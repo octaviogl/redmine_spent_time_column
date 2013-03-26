@@ -1,5 +1,5 @@
 require 'redmine'
-require 'spent_time_column_patch'
+require 'spent_time_column_query_patch'
 
 Redmine::Plugin.register :redmine_spent_time_column do
   name 'Redmine Spent Time Column'
